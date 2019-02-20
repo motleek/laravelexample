@@ -11,4 +11,18 @@
 			</li>
 		@endforeach
 	</ul>
+	<form method="GET" action="/projects/create">
+
+<!-- 		@method('DELETE')
+		@csrf
+ -->
+
+		<div class="box">
+
+			<div class="control">
+				<button type="submit" class="button is-link">Create a New Project</button>
+			</div>
+		</div>
+
+	</form>
 @endsection
